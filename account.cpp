@@ -21,29 +21,29 @@ private:
     double balance;
 
 public:
-    // Default constructor.
+   // Default constructor.
     // Initialize 'balance' to 0.
-    // TODO: Implement the default constructor.
+    Account ();// TODO: Implement the default constructor.
 
     // Parameterized constructor.
     // Initialize 'balance' with the provided 'initialBalance'.
-    // TODO: Implement the parameterized constructor.
+    Account (double initialBalance);// TODO: Implement the parameterized constructor.
 
     // Getter function to return the current balance.
-    // TODO: Implement the 'getBalance' function.
+    double getBalance(); // TODO: Implement the 'getBalance' function.
 
     // Setter function to set the balance to a new value.
-    // TODO: Implement the 'setBalance' function.
+    void setBalance(double newBalance); // TODO: Implement the 'setBalance' function.
 
     // Function to deposit an amount into the account.
-    // TODO: Implement the 'deposit' function.
+    void deposit(double amount); // TODO: Implement the 'deposit' function.
 
     // Function to withdraw an amount from the account.
-    // TODO: Implement the 'withdraw' function.
+    void withdraw(double amount); // TODO: Implement the 'withdraw' function.
 
     // Destructor.
     // Display a message indicating the account is being destroyed.
-    // TODO: Implement the destructor.
+     ~Account(); // TODO: Implement the destructor.
 };
 
 #endif // ACCOUNT_H
